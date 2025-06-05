@@ -8,3 +8,4 @@ To run this project:
 1. Create a Google Cloud Vision API key
 2. Save it as `credentials.json` in the project root
 3. Make sure `.gitignore` prevents it from being uploaded
+every file with .inc.php belongs to the includes folder
