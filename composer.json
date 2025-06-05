@@ -1,0 +1,12 @@
+{
+    "name": "michael/projecttrial",
+    "require": {
+        "google/cloud-vision": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Michael",
+            "email": "chimezunem0@gmail.com"
+        }
+    ]
+}
