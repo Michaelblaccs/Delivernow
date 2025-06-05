@@ -1,11 +1,19 @@
-# Delivernow
-AI powered food delivery app with image search.
-⚠️ This project originally used the Google Cloud Vision API.
+# Delivernow 🍔
 
-For security reasons, the API key (`credentials.json`) is not included in this public repository.
+A food ordering web app built with PHP and MySQL. Includes basic cart, login system, and optional integration with Google Vision API.
 
-To run this project:
-1. Create a Google Cloud Vision API key
-2. Save it as `credentials.json` in the project root
-3. Make sure `.gitignore` prevents it from being uploaded
-every file with .inc.php belongs to the includes folder
+## Features
+- 🖼 Image search via Google Cloud Vision (optional)
+- 🛒 Cart and order system
+- 🔐 Login and registration
+- 📁 Modular PHP includes
+- 🧼 Clean file structure
+
+## How to Run Locally
+1. Install [XAMPP](https://www.apachefriends.org/index.html)
+2. Clone this repo into `htdocs`
+3. Set up the `delivernow` database using `includes/dbh.inc.php`
+4. (Optional) Set up Google Vision API credentials
+5. Navigate to `localhost/project-folder`
+
+> ⚠️ **Note:** Any secrets (like API keys or DB passwords) have been removed for public upload.
